@@ -16,6 +16,16 @@ y is the dependent variable.
 
 A Linear Regression model’s main aim is to find the best fit linear line and the optimal values of intercept and coefficients such that the error is minimized.
 Error is the difference between the actual value and Predicted value and the goal is to reduce this difference.
+### Numerical Analysis Approach Linear Regression 
+
+### Gradient Descent Approach Linear Regression
+The main motivation of this approach is that we reduce error by updating the value of m (slop) and c (intercpt of Y-axis). 
+Some optimizers of Gradient Descent are Bold Driver, Adam, Adamax, Adagard, RMSProp etc...
+> Batch Gradient Descent
+> > Batch Gradient Descent: For updating slop m and intercept of Y-axis c. We use all training data and calculating errors on this training data. This is known as Batch Gradient Descent.
+
+> Stochastic Gradient Descent
+> > For updating slop m and intercept of Y-axis c. We don't use all training data except those training data are regarded with m and c.
 
 ### Advantage
 1. Linear regression performs exceptionally well for linearly separable data.
